@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="微信">
+
+<!-- Mobile Devices Support @begin -->
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+        <meta content="no-cache" http-equiv="pragma">
+        <meta content="0" http-equiv="expires">
+        <meta content="telephone=no, address=no" name="format-detection">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
+        <meta name="apple-mobile-web-app-capable" content="yes"> <!-- apple devices fullscreen -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+            
+        <!-- Mobile Devices Support @end -->
+
+    <title>校园二手书</title>
+    
+    <script src="jquery-1.11.2.min.js"></script>
+    <script src="submitinf.js"></script>
+    
+    </head>
+    
+    <body>
+    <p>提示：请按照要求正确填写信息</p>
+    
+    <div>
+    
+        <form>
+        类&nbsp;&nbsp;&nbsp;&nbsp;型&nbsp;
+            <select name="type" id="sort">
+                <option value="理工类">理工类</option>
+                <option value="经管类">经管类</option>
+                <option value="法学类">法学类</option>
+                <option value="语言类">语言类</option>
+                <option value="计算机类">计算机类</option>
+                <option value="其他类">其他类</option>
+            </select>
+        </form> 
+    </div>
+    
+    <div>
+        <p>书&nbsp;&nbsp;&nbsp;&nbsp;名&nbsp;&nbsp;<input type="text" id="name" /></p>
+        <p>价格(元)&nbsp;&nbsp;<input type="text" id="price"  /></p>
+        <p>联系方式&nbsp;&nbsp;<input type="text" id="contact"  /></p>
+        <p>数&nbsp;&nbsp;&nbsp;&nbsp;量&nbsp;&nbsp;<input type="number" id="sum"  /></p>
+    </div>
+    
+    <div>
+        <button id="submit">提交</button>
+        <button id="cancel">取消</button>
+        
+    </div>
+    
+    
+    <style type="text/css">
+        button{
+            min-width: 80px;
+            height: 25px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border: medium none;
+            background: none repeat scroll 0% 0% #018F89;
+            color: #FFF;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+    </style>
+    
+    </body>
+    
+    
+</html>
